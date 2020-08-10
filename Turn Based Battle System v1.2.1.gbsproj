@@ -2,9 +2,9 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 938.4000244140625,
-        "worldScrollY": 44,
-        "zoom": 225,
+        "worldScrollX": 185.60000610351562,
+        "worldScrollY": 0,
+        "zoom": 100,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
         "customColorsDark": "509878",
@@ -5401,6 +5401,32 @@
                             "command": "EVENT_END"
                         }
                     ]
+                },
+                {
+                    "spriteSheetId": "660983fe-eedb-4989-985e-6f7d73d225c5",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "1c08d262-dd0f-4df5-b611-a80bdd5e7b9f",
+                    "x": 12,
+                    "y": 18,
+                    "script": [
+                        {
+                            "id": "d0f8ed2d-a320-4776-b5b1-9b2438d33629",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "You can smell the\ntobacco coming\nfrom inside."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "ebc55ba2-f313-44b7-a80d-effa90918df6",
+                            "command": "EVENT_END"
+                        }
+                    ]
                 }
             ],
             "triggers": [
@@ -6213,6 +6239,20 @@
                         }
                     ]
                 }
+            ],
+            "script": [
+                {
+                    "id": "51d2c27f-954c-4292-a851-37dee83ef7e8",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "59794937-2710-4576-860e-1b87cff799e8",
+                        "loop": true
+                    }
+                },
+                {
+                    "id": "177b8569-6540-43c3-bb4e-6e9275a62de3",
+                    "command": "EVENT_END"
+                }
             ]
         },
         {
@@ -6539,7 +6579,7 @@
                                 "command": "EVENT_MUSIC_PLAY",
                                 "args": {
                                     "musicId": "d9e15031-75a9-4331-9267-179be7cd7a2b",
-                                    "loop": false
+                                    "loop": true
                                 }
                             },
                             {
@@ -6782,6 +6822,20 @@
                             "command": "EVENT_END"
                         }
                     ]
+                }
+            ],
+            "script": [
+                {
+                    "id": "4cf2aeb9-0455-4495-b0c7-6d4991c32fd6",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "59794937-2710-4576-860e-1b87cff799e8",
+                        "loop": true
+                    }
+                },
+                {
+                    "id": "9a1043e4-8072-4b5f-bc53-3c8dc130d85f",
+                    "command": "EVENT_END"
                 }
             ]
         },
@@ -16663,7 +16717,7 @@
                                 "command": "EVENT_MUSIC_PLAY",
                                 "args": {
                                     "musicId": "36ba0ede-0ad0-4a2f-860f-ac7b13fb789c",
-                                    "loop": false
+                                    "loop": true
                                 }
                             },
                             {
@@ -21355,7 +21409,170 @@
             "id": "2b05bcb9-eb86-48a6-bbdf-261ab72d775a",
             "x": 1558.5999755859375,
             "y": 1003.3999938964844,
-            "actors": [],
+            "actors": [
+                {
+                    "spriteSheetId": "660983fe-eedb-4989-985e-6f7d73d225c5",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "07ad9272-54ef-44fa-a66d-5dc8f7cba42b",
+                    "x": 7,
+                    "y": 7,
+                    "script": [
+                        {
+                            "id": "be9cd99f-0132-4b2e-9e57-a12b43bef017",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "There's a show on\ntv called \"The\nbunny\"",
+                                    "Its really hard to\nknow what it is\nabout"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "5153c1bb-8744-47b5-9902-33f2322786f1",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
+                {
+                    "spriteSheetId": "660983fe-eedb-4989-985e-6f7d73d225c5",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "0902190a-c3cc-41ed-8488-dd4b62e9d742",
+                    "x": 9,
+                    "y": 7,
+                    "script": [
+                        {
+                            "id": "d999c027-db74-4100-8487-71d6028f14a3",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "There's a show on\ntv called \"The\nbunny\"",
+                                    "Its really hard to\nknow what it is\nabout"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "30eb4d94-49ac-4bca-80ef-5e34fe32ff88",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "__type": "actor"
+                },
+                {
+                    "spriteSheetId": "660983fe-eedb-4989-985e-6f7d73d225c5",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "d1431e48-6d90-4dac-95f1-69ad50f4b76d",
+                    "x": 11,
+                    "y": 7,
+                    "script": [
+                        {
+                            "id": "70f9adfa-480e-4d54-b7ec-9900fc7fad73",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "There's a show on\ntv called \"The\nbunny\"",
+                                    "Its really hard to\nknow what it is\nabout"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "737bafed-ed6c-48d2-b127-57e3352accd0",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "__type": "actor"
+                },
+                {
+                    "spriteSheetId": "660983fe-eedb-4989-985e-6f7d73d225c5",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "6d6a17d5-a392-42f8-9ff7-8ead746dac41",
+                    "x": 13,
+                    "y": 5,
+                    "script": [
+                        {
+                            "id": "f85a726d-c7ee-4703-af12-73fda848b2b4",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "This are not books\njust magazines."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "15a852e3-0690-4465-b013-a1e42f0ab763",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
+                {
+                    "spriteSheetId": "660983fe-eedb-4989-985e-6f7d73d225c5",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "c50da1e9-a301-45f2-b83b-104b404598d3",
+                    "x": 15,
+                    "y": 5,
+                    "script": [
+                        {
+                            "id": "5f2661ae-e90a-4412-a484-d0dcdc5695c0",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "This are not books\njust magazines."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "1f1d411d-25c0-4a05-8df4-e1b3f56efee0",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "__type": "actor"
+                },
+                {
+                    "spriteSheetId": "660983fe-eedb-4989-985e-6f7d73d225c5",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "0880c777-ee44-4606-b028-ed6875fd7a78",
+                    "x": 4,
+                    "y": 5,
+                    "script": [
+                        {
+                            "id": "e546d2e0-7912-4631-898f-08711dc79232",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "There's no food in\nhere, just drinks."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "79f01446-2c79-4960-8f70-e06246725de7",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                }
+            ],
             "triggers": [
                 {
                     "trigger": "walk",
@@ -21439,7 +21656,179 @@
             "id": "6a913641-a876-47b2-a4ff-783fbc8d5df1",
             "x": 1448.5999755859375,
             "y": 508.3999938964844,
-            "actors": [],
+            "actors": [
+                {
+                    "spriteSheetId": "660983fe-eedb-4989-985e-6f7d73d225c5",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "40d7a372-f3b7-4823-8bec-6b44e007bd09",
+                    "x": 15,
+                    "y": 5,
+                    "script": [
+                        {
+                            "id": "5311759c-66d9-4648-a708-55c81d537c29",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "There's a bunch of\ncooking books",
+                                    "How to make\nparaguayan soup",
+                                    "Step 1: its corn\nbread",
+                                    "End."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "b0e73a96-c7a7-48ec-8693-d68eae06d9a7",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
+                {
+                    "spriteSheetId": "660983fe-eedb-4989-985e-6f7d73d225c5",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "90c5e127-18cd-4a3e-9e89-363afd7936c7",
+                    "x": 13,
+                    "y": 5,
+                    "script": [
+                        {
+                            "id": "0a391c21-b8b9-4e58-9398-9b281e5a4509",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "There's a bunch of\ncooking books",
+                                    "How to make\nparaguayan soup",
+                                    "Step 1: its corn\nbread",
+                                    "End."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "760feaed-8d97-491b-a8f6-f940eeaffca1",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "__type": "actor"
+                },
+                {
+                    "spriteSheetId": "660983fe-eedb-4989-985e-6f7d73d225c5",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "ebaa6f79-53fa-4a00-93b7-b622b5c12165",
+                    "x": 8,
+                    "y": 5,
+                    "script": [
+                        {
+                            "id": "c1357930-7622-4d9c-a51c-8f1ef545a8f4",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Here's a book\nabout the myths",
+                                    "At the begining\nthere was Tau and\nKerana..."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "dc123677-6142-428d-b5f9-1e936ae8449c",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
+                {
+                    "spriteSheetId": "660983fe-eedb-4989-985e-6f7d73d225c5",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "bf54ff70-4d0e-41ae-8e51-097c378ce982",
+                    "x": 10,
+                    "y": 5,
+                    "script": [
+                        {
+                            "id": "257650a9-1f90-4ee8-b86f-67f4ddd5b309",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Here's a book\nabout the myths",
+                                    "At the begining\nthere was Tau and\nKerana..."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "3cfe2459-72bb-4d6f-b122-7fe89eaa1c68",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "__type": "actor"
+                },
+                {
+                    "spriteSheetId": "660983fe-eedb-4989-985e-6f7d73d225c5",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "dd9a52bf-5051-46df-8aa2-32ed184e949e",
+                    "x": 3,
+                    "y": 5,
+                    "script": [
+                        {
+                            "id": "b7f4523f-f226-4ea1-8082-ab739739f7eb",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Usually you can\nfind creatures on\nthe wild and need ",
+                                    "to fight, for this\nyou need to know\nthat hurt is your ",
+                                    "most powerful\nability."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "42beff4c-16dd-4951-a059-e96985b8fa74",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
+                {
+                    "spriteSheetId": "660983fe-eedb-4989-985e-6f7d73d225c5",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "21f1dcb0-6617-4330-a5bd-07ca643cbcb5",
+                    "x": 5,
+                    "y": 5,
+                    "script": [
+                        {
+                            "id": "18eeedae-5cd3-47e8-b1c4-53104ccc568e",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Usually you can\nfind creatures on\nthe wild and need ",
+                                    "to fight, for this\nyou need to know\nthat hurt is your ",
+                                    "most powerful\nability."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "81263641-b3ac-42ae-a06c-b90eb0250601",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "__type": "actor"
+                }
+            ],
             "triggers": [
                 {
                     "trigger": "walk",
@@ -21523,7 +21912,62 @@
             "id": "aa7c98fe-6142-4d16-95b9-02faac647317",
             "x": 1631.5999755859375,
             "y": 506.3999938964844,
-            "actors": [],
+            "actors": [
+                {
+                    "spriteSheetId": "660983fe-eedb-4989-985e-6f7d73d225c5",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "a3548af1-9fe7-464a-82b8-3105f6ed5a6f",
+                    "x": 4,
+                    "y": 5,
+                    "script": [
+                        {
+                            "id": "ee7404ba-6b34-4092-a4cb-539d41c6c027",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "There's a show on\nTv, oh wait, its\njust re-runs of",
+                                    "Pete and Pete"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "9b068ac8-6de3-40c9-952f-df6190ad8e4e",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
+                {
+                    "spriteSheetId": "660983fe-eedb-4989-985e-6f7d73d225c5",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "bf68dc9f-62c9-4a70-b090-4902450ca10e",
+                    "x": 15,
+                    "y": 10,
+                    "script": [
+                        {
+                            "id": "631407db-8ddb-4f35-a965-da7580de221d",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "The bookshelf is\nfull of games",
+                                    "Sadly no one is\nhome, so you can't\nborrow them"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "61686b57-7b78-4398-934d-6c518d512bfd",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                }
+            ],
             "triggers": [
                 {
                     "trigger": "walk",
@@ -21607,7 +22051,36 @@
             "id": "5969cdc2-f564-4058-af82-c11f24e3ce41",
             "x": 558.523061899039,
             "y": 339.69230769230785,
-            "actors": [],
+            "actors": [
+                {
+                    "spriteSheetId": "684f6332-8621-4f24-979b-a631b2401ca9",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "0842877f-4df3-4dbb-89f9-d954821eaf44",
+                    "x": 6,
+                    "y": 8,
+                    "animate": true,
+                    "script": [
+                        {
+                            "id": "c3e6b131-cd95-4740-9345-8a88a06e73c8",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "You found an\nChipa!",
+                                    "+1 Cholesterol"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "a04beac3-43a4-4a1c-97a3-763b20a14fce",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                }
+            ],
             "triggers": [
                 {
                     "trigger": "walk",
