@@ -1,5 +1,7 @@
 # Yaguarete (Gameboy Version)
 
+![image](Ux9XhX.png)
+
  Created with GB-Studio by chrismaltby.
 
 ▶︎ [demo](https://g0rd5.itch.io/yaguarete)
