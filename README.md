@@ -4,7 +4,7 @@
 
  Created with GB-Studio by chrismaltby.
 
-▶︎ [demo](https://g0rd5.itch.io/yaguarete)
+▶︎ [itchio](https://g0rd5.itch.io/yaguarete)
 
 A -short- rpg based on the myths and legends of the Guarani people from South America, heavily influenced by Dragon Quest and Pokemon.
 
